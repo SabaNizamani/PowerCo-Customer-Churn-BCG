@@ -1,0 +1,45 @@
+
+======================================================================
+  PowerCo Customer Churn — Executive Summary
+  BCG X Data Science Simulation
+  Generated: 2026-04-29 16:22
+======================================================================
+
+BUSINESS QUESTION
+  Is customer churn at PowerCo primarily driven by price sensitivity?
+
+ANSWER
+  No. Price sensitivity is a contributing factor but NOT the primary
+  driver of churn.
+
+MODEL PERFORMANCE
+  Algorithm  : Random Forest (1000 trees, balanced class weights)
+  Accuracy   : 90.96%
+  Precision  : 85.71%
+  Recall     : 8.45%
+  F1 Score   : 15.38%
+  ROC-AUC    : 0.7027
+  CV ROC-AUC : 0.6763 ± 0.0167
+
+TOP CHURN DRIVERS (Feature Importance)
+    1. margin_net_pow_ele
+  2. cons_12m
+  3. forecast_meter_rent_12m
+  4. margin_gross_pow_ele
+  5. net_margin
+
+KEY FINDINGS
+  1. Net margin and 12-month consumption are the strongest churn signals
+  2. Customer tenure matters — customers with <4 months tenure churn most
+  3. Price-related features contribute weakly, ranking lower in importance
+  4. The 'MISSING' sales channel shows elevated churn (7.6%)
+  5. Gas customers churn ~2% less (multi-product loyalty effect)
+
+RECOMMENDATIONS
+  → Target high-margin, short-tenure customers for proactive outreach
+  → Investigate declining-consumption customers early as an at-risk signal
+  → Use churn probability scores to prioritise retention budgets
+  → Price discounts alone are unlikely to solve the churn problem
+  → Consider improving contract flexibility and service quality
+
+======================================================================
