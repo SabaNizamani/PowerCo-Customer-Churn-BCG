@@ -117,15 +117,18 @@ With a ~10% churn rate, a naïve model predicts "no churn" for everything and st
 
 | Metric | Score |
 |---|---|
-| Accuracy | *see your output* |
-| Precision | *see your output* |
-| Recall | *see your output* |
-| F1 Score | *see your output* |
-| ROC-AUC | *see your output* |
-| 5-Fold CV AUC | *see your output* |
+| Accuracy | 0.9096 |
+| Precision | 0.8571 |
+| Recall | 0.0845 |
+| F1 Score | 0.1538 |
+| ROC-AUC | 0.7027 |
+| 5-Fold CV AUC | 0.6763 ± 0.0167 |
 
-> ⚠️ Exact scores depend on your dataset version. Run `run_pipeline.py` to generate your results.
-
+ The high accuracy (90.9%) is misleading due to class imbalance — 
+ only 9.7% of customers churned. The model excels at identifying 
+ non-churners (precision 0.86) but struggles to catch all churners 
+ (recall 0.08). This is a known limitation and improving recall is 
+ the key next step — see Potential Improvements below.
 ---
 
 ## 💡 Business Insight — Answering the Hypothesis
