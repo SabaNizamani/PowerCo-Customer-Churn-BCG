@@ -151,7 +151,7 @@ The Random Forest feature importance analysis reveals:
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/PowerCo-Customer-Churn-BCG.git
+git clone https://github.com/SabaNizamani/PowerCo-Customer-Churn-BCG.git
 cd PowerCo-Customer-Churn-BCG
 ```
 
@@ -203,15 +203,8 @@ All plots, predictions, and the executive summary will be saved to `/outputs/`.
 - [ ] Build a Streamlit dashboard for interactive churn scoring
 - [ ] Add price elasticity calculation per customer segment
 
----
-
-## 📜 Certificate
-
-Completed as part of the **BCG X Data Science Job Simulation** on [Forage](https://www.theforage.com/).
-
----
 
 ## 👤 Author
 
 Saba Nizamani
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/SabaNIzamani) · [Email](sabanizamani15@gmail.com)
+[LinkedIn](www.linkedin.com/in/saba-nizamani-3a890121b) · [GitHub](https://github.com/SabaNizamani) · [Email](sabanizamani15@gmail.com)
