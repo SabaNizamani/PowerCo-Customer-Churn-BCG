@@ -205,4 +205,4 @@ All plots, predictions, and the executive summary will be saved to `/outputs/`.
 ## 👤 Author
 
 Saba Nizamani
-[LinkedIn](www.linkedin.com/in/saba-nizamani-3a890121b) · [GitHub](https://github.com/SabaNizamani) · [Email](sabanizamani15@gmail.com)
+[LinkedIn](https://www.linkedin.com/in/saba-nizamani-3a890121b) · [GitHub](https://github.com/SabaNizamani) · [Email](mailto:sabanizamani15@gmail.com)
