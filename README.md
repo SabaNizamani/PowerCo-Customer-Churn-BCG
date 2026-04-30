@@ -192,8 +192,6 @@ All plots, predictions, and the executive summary will be saved to `/outputs/`.
 | `matplotlib` | All custom plots and dashboards |
 | `seaborn` | Statistical visualisations (heatmaps, boxplots, histograms) |
 
----
-
 ## 📈 Potential Improvements
 
 - [ ] Hyperparameter tuning with `GridSearchCV`
