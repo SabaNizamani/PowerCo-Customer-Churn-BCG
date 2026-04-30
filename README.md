@@ -213,5 +213,5 @@ Completed as part of the **BCG X Data Science Job Simulation** on [Forage](https
 
 ## 👤 Author
 
-**[Your Name]**
-[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/your-username) · [Email](mailto:your@email.com)
+Saba Nizamani
+[LinkedIn](https://linkedin.com/in/your-profile) · [GitHub](https://github.com/SabaNIzamani) · [Email](sabanizamani15@gmail.com)
